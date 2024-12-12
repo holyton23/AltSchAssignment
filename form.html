@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALT School Application Form</title>
+</head>
+<body>
+    <header>
+        <h1>ALT School Application Form</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="form.html">Application Form</a>
+    </nav>
+
+    <main>
+        <form action="#" method="POST">
+            <fieldset>
+                <legend>Personal Information</legend>
+
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required>
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+            </fieldset>
+
+            <fieldset>
+                <legend>Program Details</legend>
+
+                <label for="track">Preferred Track:</label>
+                <select id="track" name="track" required>
+                    <option value="engineering">Engineering</option>
+                    <option value="product">Product Management</option>
+                    <option value="data">Data Analytics</option>
+                </select>
+
+                <label for="country">Country:</label>
+                <input type="text" id="country" name="country" placeholder="Enter your country" required>
+            </fieldset>
+
+            <button type="submit">Submit Application</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>Address: Ojodu Berger, Isheri Lagos, Lagos State, Nigeria</p>
+        <p>&copy; 2024 ALT School Journey by Olaitan Olakanmi</p>
+    </footer>
+</body>
+</html>
